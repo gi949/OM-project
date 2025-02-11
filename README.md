@@ -58,6 +58,8 @@ systemctl enable node_exporter
 
 curl http://localhost:9100/metrics
 
+---
+
 Установка nginx_exporter
 
 Подключаем репозиторий
@@ -117,6 +119,8 @@ systemctl start nginx_exporter
 Также можно получить набор метрик:
 
 curl 127.0.0.1:9113/metrics
+
+---
 
 Установка mysql_exporter
 
@@ -215,6 +219,8 @@ systemctl start mysql_exporter
 Также можно получить набор метрик:
 
 curl http://localhost:9104/metrics
+
+---
 
 На второй ВМ устанавливаем и настраиваем Blackbox Exporter
 
